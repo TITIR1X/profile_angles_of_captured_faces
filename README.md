@@ -6,6 +6,6 @@ The programs I created for the project were designed to analyze on a massive sca
 
 Installation: tested in python 3.10.0 | Windows 10
 
-- pip install Pillow==9.3.0
+- pip install mediapipe==0.8.11
 
 - pip install opencv-python==4.6.0.66
