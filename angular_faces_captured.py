@@ -7,7 +7,10 @@ import mediapipe as mp
 from collections import Counter
 import operator
 
-os.system('cls')
+try:
+ os.system('color 6')
+ os.system('cls')
+except:os.system('clear')
 print("""
  ./Angular_rostros.py
   ____              _______ _   ______ _       ___ __    __
