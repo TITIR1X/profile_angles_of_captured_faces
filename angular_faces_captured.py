@@ -135,5 +135,5 @@ while count2 < len(imagesPathList):
 
 webbrowser.open(os.path.realpath(output_folder))
 
-print('/nangular_faces_captured.py.py: Programa finalizado.')
+print('\nangular_faces_captured.py.py: Programa finalizado.')
 exit()
