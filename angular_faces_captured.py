@@ -1,16 +1,19 @@
 from cgi import test
 from email.mime import image
 from PIL import Image
-import cv2, os, shutil, webbrowser
+import cv2, shutil, webbrowser
 from unittest import result
 import mediapipe as mp
 from collections import Counter
 import operator
+import platform, os
 
-try:
- os.system('color 6')
- os.system('cls')
-except:os.system('clear')
+os_name = platform.system()
+
+if os_name == 'Windows':
+    os.system('cls')
+elif os_name == "Linux":
+    os.system('clear')
  
 print("""
  ./Angular_rostros.py
